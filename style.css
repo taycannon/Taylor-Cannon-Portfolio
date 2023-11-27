@@ -1,0 +1,131 @@
+.flex {
+    display: flex;
+}
+/* Reseting default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Applied a background color and font for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* The header section styling */
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.header h1 {
+    margin: auto;
+    padding: auto;
+}
+
+header h1 {
+    font-size: 20px;
+    
+}
+
+/* The navigation menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+/* The main content section */
+main {
+    max-width: 800px;
+    background-color: white;
+
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+ color: black;
+ 
+}
+
+#about {
+    display: flex;
+    padding: 20px;
+    
+}
+
+#about h2 {
+    margin-right: 20px;
+}
+
+#work {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+#work div:first-child {
+    width: 200px;
+    padding-right: 20px;
+    
+}
+/* The styling for the projects! */
+.work {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 10px;
+}
+
+
+.work-item {
+    text-align: right;
+    padding: 5px;
+
+}
+
+/* styled paragraph text */
+p {
+    color: black;
+    line-height: 2;
+}
+
+/* Style links for the navigation */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: lightpink;
+}
+
+/* Style for project links in Work */
+ul li a {
+    color: lightcoral;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Style for the footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+}
